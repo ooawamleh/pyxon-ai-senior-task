@@ -27,7 +27,7 @@ GIL utilizes a **7-Agent Pipeline** built with LangChain (LCEL) to ensure high a
 
 * **Orchestration:** LangChain (LCEL)
 * **Backend:** FastAPI (Microservice Architecture)
-* **LLM:** Gemini 2.0 Flash (via OpenRouter)
+* **LLM:** openrouter/free (via OpenRouter)
 * **Vector DB:** FAISS (Local persistent store)
 * **Deployment:** Docker & Docker Compose
 
@@ -45,7 +45,7 @@ SERPAPI_API_KEY="your_key"
 ```bash
 docker-compose up --build
 ```
-Access the UI at `http://localhost:7860`.
+The system is deployed at `https://huggingface.co/spaces/Ounaa2003/gil-intelligence-swarm`.
 
 ---
 **Author:** Oun Alawamleh
