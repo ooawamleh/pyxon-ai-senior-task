@@ -1,0 +1,52 @@
+# ===========================
+# PYTHON & SYSTEM
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# ===========================
+# VIRTUAL ENVIRONMENTS
+# ===========================
+venv/
+.venv/
+env/
+ENV/
+
+# ===========================
+# SECURITY (IMPORTANT)
+# ===========================
+# Never push your API keys!
+.env
+*.env
+.env.*
+*.pem
+*.key
+
+# ===========================
+# VECTOR DB & CACHE (GIL SPECIFIC)
+# ===========================
+# Ignore the local semantic cache to ensure the reviewer starts fresh
+semantic_cache_index/
+faiss_index_gradio/
+*.faiss
+*.index
+*.pkl
+
+# ===========================
+# GRADIO & LOGS
+# ===========================
+flagged/
+*.log
+*.tmp
+
+# ===========================
+# IDEs & EDITORS
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo

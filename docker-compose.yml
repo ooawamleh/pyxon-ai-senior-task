@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  gil-intelligence:
+    build: .
+    ports:
+      - "7860:7860" # Gradio UI
+      - "8000:8000" # FastAPI Backend
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: always

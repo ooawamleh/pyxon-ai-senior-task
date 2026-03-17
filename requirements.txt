@@ -1,0 +1,17 @@
+gradio
+pandas
+langchain
+langchain-core
+langchain-google-genai
+langchain-community
+langchain-huggingface
+faiss-cpu
+google-generativeai
+sentence-transformers
+requests
+google-search-results
+python-dotenv
+beautifulsoup4
+fastapi
+uvicorn
+pydantic
